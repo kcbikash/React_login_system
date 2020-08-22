@@ -35,8 +35,10 @@ class Login extends Component{
     if(isValidEmail && isValidPassword )  {
       //  console.log("valid"),
       this.setState({loading:true});
+     
      // this.props.history.push("/signup");
      setInterval(() => {
+      
        this.props.history.push("/home");
       }, 2000);
    
