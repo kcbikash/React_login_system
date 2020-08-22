@@ -1,0 +1,21 @@
+.rowC{
+display:flex; flex-direction:row;
+}
+
+.sign-in-title{
+    padding-top: 8%;
+    font-size: 25px;
+    color:#ccb6b6;
+    font-weight: bold;
+}
+
+.sign-up-title{
+    padding-top: 8%;
+    font-size: 25px;
+    color:#c8dc25;
+    font-weight: bold;
+}
+
+.submit-button{
+    padding-top: 30px;
+}
